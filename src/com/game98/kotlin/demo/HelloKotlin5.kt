@@ -1,6 +1,6 @@
 package com.game98.kotlin.demo
 
-fun main(args: Array<String>) {
+fun main() {
 
     println(convert2UpperCase("hello"))
 

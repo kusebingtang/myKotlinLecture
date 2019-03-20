@@ -1,6 +1,6 @@
 package com.game98.kotlin.demo
 
-fun main(args: Array<String>) {
+fun main() {
     val a = 5
     val b = 10
 
