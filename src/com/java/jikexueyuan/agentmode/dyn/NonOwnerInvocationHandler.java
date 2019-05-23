@@ -13,7 +13,6 @@ public class NonOwnerInvocationHandler implements InvocationHandler{
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
-		// TODO Auto-generated method stub
 
 		if(method.getName().startsWith("get"))
 		{
