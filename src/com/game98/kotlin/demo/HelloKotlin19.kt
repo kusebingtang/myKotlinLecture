@@ -37,7 +37,7 @@ fun main() {
  */
 class MyTest {
     companion object MyObject{
-        //@JvmStatic
+        @JvmStatic
         var numberA : Int = 100
 
         @JvmStatic
