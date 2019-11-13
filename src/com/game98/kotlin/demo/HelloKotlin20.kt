@@ -24,6 +24,8 @@ class ThePersion(address: String,name: String) {
             println("setter invoked")
             field = value
         }
+    var name: String = name;
+
 }
 
 
@@ -35,5 +37,9 @@ fun main() {
     println(persion.address)
     persion.address = "tianjing"
     println(persion.address)
+
+    println(persion.name)
+    persion.name = "lisi"
+    println(persion.name)
 
 }
